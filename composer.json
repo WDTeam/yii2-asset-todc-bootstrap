@@ -1,0 +1,22 @@
+{
+    "name": "wdteam/yii2-asset-todc-bootstrap",
+    "description": "Yii2 asset for bower todc-bootstrap",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "windsdeng",
+            "email": "windsdeng@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "todc/todc-bootstrap": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "wdteam\\todcbootstrap\\": ""
+        }
+    }
+}
