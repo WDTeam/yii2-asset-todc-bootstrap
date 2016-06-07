@@ -28,4 +28,18 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-<?= \wdteam\todcbootstrap\AutoloadExample::widget(); ?>```
+class AppAsset extends AssetBundle
+{
+    public $basePath = '@webroot';
+    public $baseUrl = '@web';
+    public $css = [
+        'css/site.css',
+    ];
+    public $js = [
+    ];
+    public $depends = [
+        'yii\web\YiiAsset',
+        'yii\bootstrap\BootstrapAsset',
+        'wdteam\todcbootstrap\TodcbootstrapAsset',
+    ];
+}```
